@@ -1,0 +1,49 @@
+
+body,html{
+  height: 100%;
+  margin: 0px;
+}
+.boxproject{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+}
+
+.boxproject .centerdiv{
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.boxproject .meinDiv{
+  display: flex;
+  border-top: 1px solid #687291;
+
+  width: 100x;
+  height: 100px;
+  min-height: 100px;
+  min-width: 100px;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0px;
+}
+
+.boxproject .meinDiv:nth-child(odd){
+  background-color: #dfe1e7;
+}
+
+.boxproject .meinDiv:nth-child(even){
+  background-color: #eeeff2;
+}
+
+.boxproject .meinDiv:last-child{
+  border-style: solid;
+  border-width: 4px;
+  border: 1px solid #687291;
+}
